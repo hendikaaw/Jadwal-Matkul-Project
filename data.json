@@ -1,0 +1,132 @@
+{
+  "profile": {
+    "nim": "26050430034",
+    "nama": "Hendika Adhi Wibawanta",
+    "prodi": "PENDIDIKAN TEKNIK ELEKTRONIKA - S1",
+    "angkatan": "2026",
+    "pembimbing": "Muhammad Irfan Luthfi M.Pd.",
+    "kelas": "B"
+  },
+  "schedules": [
+    {
+      "kode": "MWP60201",
+      "matakuliah": "ILMU PENDIDIKAN",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Yussi Anggraini M.Pd.",
+      "ruang": "R. AVA A/Lab. Micro, GEDUNG MEDIA, AULA dan RUANG THEATER, size:40 [F.24.2.03.03]",
+      "hari": "Senin",
+      "jam": "07:30:00 - 09:09:00",
+      "day_rank": 1,
+      "time_rank": 450
+    },
+    {
+      "kode": "TEA60201",
+      "matakuliah": "MATEMATIKA",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Suprapto M.T., Ph.D.",
+      "ruang": "R. Kuliah ( RF 9 ), GEDUNG RF, size:40 [F.23.3.01.03]",
+      "hari": "Senin",
+      "jam": "10:50:00 - 12:30:00",
+      "day_rank": 1,
+      "time_rank": 650
+    },
+    {
+      "kode": "TEA60202",
+      "matakuliah": "PRAKTIKUM ALAT UKUR DAN PENGUKURAN",
+      "sks": "2",
+      "kelas": "A2",
+      "dosen": "Yussi Anggraini M.Pd.",
+      "ruang": "Lab. Elektronika dasar, GEDUNG LABORATORIUM  ELEKTRO & ELEKTRONIKA, size:20 [F.18.1.03.02]",
+      "hari": "Senin",
+      "jam": "14:10:00 - 17:30:00",
+      "day_rank": 1,
+      "time_rank": 850
+    },
+    {
+      "kode": "TEA60206",
+      "matakuliah": "PRAKTIKUM RANGKAIAN LISTRIK",
+      "sks": "2",
+      "kelas": "A2",
+      "dosen": "Yussi Anggraini M.Pd.",
+      "ruang": "Lab. Elektronika dasar, GEDUNG LABORATORIUM  ELEKTRO & ELEKTRONIKA, size:20 [F.18.1.03.02]",
+      "hari": "Selasa",
+      "jam": "10:51:00 - 12:31:00",
+      "day_rank": 2,
+      "time_rank": 651
+    },
+    {
+      "kode": "TEA60203",
+      "matakuliah": "ELEKTRONIKA ANALOG",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Dr. Nuryake Fajaryati S.Pd.T., M.Pd.",
+      "ruang": "R. AVA A/Lab. Micro, GEDUNG MEDIA, AULA dan RUANG THEATER, size:40 [F.24.2.03.03]",
+      "hari": "Rabu",
+      "jam": "09:11:00 - 10:49:00",
+      "day_rank": 3,
+      "time_rank": 551
+    },
+    {
+      "kode": "MWU60203",
+      "matakuliah": "PENDIDIKAN DAN PEMBANGUNAN BERKELANJUTAN",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Dr. Dra. Umi Rochayati M.T.",
+      "ruang": "R. Kuliah ( RF 6 ), GEDUNG RF, size:40 [F.23.2.01.09]",
+      "hari": "Rabu",
+      "jam": "12:32:00 - 14:09:00",
+      "day_rank": 3,
+      "time_rank": 752
+    },
+    {
+      "kode": "MWK60201",
+      "matakuliah": "PENDIDIKAN AGAMA ISLAM",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Dr. Abdul Malik Usman M.A.",
+      "ruang": "R. Kuliah ( RF 8 ), GEDUNG RF, size:40 [F.23.3.01.02]",
+      "hari": "Rabu",
+      "jam": "14:12:00 - 15:52:00",
+      "day_rank": 3,
+      "time_rank": 852
+    },
+    {
+      "kode": "TEA60204",
+      "matakuliah": "PRAKTIKUM ELEKTRONIKA ANALOG 1",
+      "sks": "2",
+      "kelas": "A2",
+      "dosen": "Dr. Nuryake Fajaryati S.Pd.T., M.Pd.",
+      "ruang": "Lab. Elektronika dasar, GEDUNG LABORATORIUM  ELEKTRO & ELEKTRONIKA, size:20 [F.18.1.03.02]",
+      "hari": "Kamis",
+      "jam": "14:11:00 - 17:30:00",
+      "day_rank": 4,
+      "time_rank": 851
+    },
+    {
+      "kode": "MWK60207",
+      "matakuliah": "PENDIDIKAN KEWARGANEGARAAN",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Ali Masykur Fathurrahman M.H.",
+      "ruang": "R. Kuliah ( RF 9 ), GEDUNG RF, size:40 [F.23.3.01.03]",
+      "hari": "Jumat",
+      "jam": "07:30:00 - 09:09:00",
+      "day_rank": 5,
+      "time_rank": 450
+    },
+    {
+      "kode": "TEA60205",
+      "matakuliah": "RANGKAIAN LISTRIK",
+      "sks": "2",
+      "kelas": "B",
+      "dosen": "Yussi Anggraini M.Pd.",
+      "ruang": "R. Kuliah ( RF 8 ), GEDUNG RF, size:40 [F.23.3.01.02]",
+      "hari": "Jumat",
+      "jam": "09:11:00 - 10:51:00",
+      "day_rank": 5,
+      "time_rank": 551
+    }
+  ]
+}
