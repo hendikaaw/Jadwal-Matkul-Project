@@ -1,0 +1,43 @@
+name: Auto Sync SIAKAD Daily
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari pukul 05.00 WIB (22.00 UTC)
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape-and-sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Playwright & BeautifulSoup
+        run: |
+          pip install playwright beautifulsoup4
+          playwright install --with-deps chromium
+
+      - name: Scrape SIAKAD
+        env:
+          UNY_NIM: ${{ secrets.UNY_NIM }}
+          UNY_PASSWORD: ${{ secrets.UNY_PASSWORD }}
+        run: |
+          python bot_sync.py
+
+      - name: Commit & Push data.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Auto-sync update jadwal [skip ci]" || echo "Tidak ada perubahan data."
+          git push
